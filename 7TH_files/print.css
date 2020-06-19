@@ -1,0 +1,27 @@
+#dheader, #slider, #menu, .sidebar, #dfooter, .breadcrumbs, #nav-single
+{
+display: none;
+}
+
+/* Ensure the content spans the full width */
+.main-content .content, .main-content .content3, .main-content .home-page-info-block article
+{
+width: 100%; margin: 0; float: none;
+}
+
+/* Change text colour to black (useful for light text on a dark background) */
+.lighttext
+{
+color: #000
+}
+
+/* Improve colour contrast of links */
+a:link, a:visited
+{
+color: #781351
+}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}

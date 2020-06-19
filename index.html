@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Educational
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Educational</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.slidepanel.setup.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.tabs.setup.js"></script>
+</head>
+<body>
+<div class="wrapper col0">
+  <div id="topbar">
+    <div id="slidepanel">
+      <div class="topbox">
+        <h2>NOTICE</h2>
+        <p>For new registeration click on register </p>
+        <p class="readmore"><a href="file:///D:/educational/form.HTML">register &raquo;</a></p>
+      </div>
+      <div class="topbox">
+        <h2>Teachers Login Here</h2>
+        <form action="" method="post">
+          <fieldset>
+            <legend>Teachers Login Form</legend>
+            <label for="teachername">Username:
+              <input type="text" name="teachername">
+            </label>
+            <label for="teacherpass">Password:
+              <input type="password" name="teacherpass">
+            </label>
+            <label for="teacherremember">
+              <input class="checkbox" type="checkbox" name="teacherremember" id="teacherremember" checked="checked" />
+              Remember me</label>
+            <p>
+              <input type="submit" onclick="check(this.form)" value="Login" />
+              &nbsp;
+              <input type="reset" name="teacherreset" id="teacherreset" value="Reset" />
+            </p>
+            <script language="javascript">
+            	function check(form)
+            	{
+            		if(form.teachername.value=="smith" && form.teacherpass.value=="123")
+            		{
+            			window.open('file:///D:/educational/New%20folder/teacher.html')
+            		}
+            		else
+            		{
+            			alert("password not match")
+            		}
+            	}
+            </script>
+          </fieldset>
+        </form>
+      </div>
+      <div class="topbox last">
+        <h2>Student Login Here</h2>
+        <form action="file:///D:/educational/New%20folder/1234.html" method="post">
+          <fieldset>
+            <legend>Student Login Form</legend>
+            <label for="pupilname">Username:
+              <input type="text" name="pupilname" id="pupilname" value="" />
+            </label>
+            <label for="pupilpass">Password:
+              <input type="password" name="pupilpass" id="pupilpass" value="" />
+            </label>
+            <label for="pupilremember">
+              <input class="checkbox" type="checkbox" name="pupilremember" id="pupilremember" checked="checked" />
+              Remember me</label>
+            <p>
+              <input type="submit" name="pupillogin" id="pupillogin" value="Login" />
+              &nbsp;
+              <input type="reset" name="pupilreset" id="pupilreset" value="Reset" />
+            </p>
+          </fieldset>
+        </form>
+      </div>
+      <br class="clear" />
+    </div>
+    <div id="loginpanel">
+      <ul>
+        <li class="left">Log In Here &raquo;</li>
+        <li class="right" id="toggle"><a id="slideit" href="#slidepanel">Administration</a><a id="closeit" style="display: none;" href="#slidepanel">Close Panel</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="index.html">LAUGHING COLOUR</a></h1>
+      <p>SCHOOL MANAGEMENT SYSTEM</p>
+    </div>
+    <div class="fl_right">
+      <ul>
+        <li class="last"><a href="#">Search</a></li>
+        <li><a href="#">Online Support</a></li>
+        <li><a href="#">School Board</a></li>
+      </ul>
+      <p>Tel:9805485489 | Mail: ritikkatoch30@gmail.com</p>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="topnav">
+    <ul>
+      <li class="active"><a href="index.html">Home</a>
+        <ul>
+          <li><a href="file:///D:/educational/fee.html">FEE&SCHELDUE</a></li>
+          <li><a href="file:///D:/educational/SPORTSLINK.HTML">SPORT</a></li>
+          <li><a href="file:///D:/educational/ADMISSION.HTML">ADMISSION</a></li>
+          <li class="last"><a href="file:///D:/educational/7TH.HTML">LIBRARY</a></li>
+        </ul>
+      </li>
+      <li><a href="file:///D:/educational/TEACHER.HTML">FACULTY</a>
+        <ul>
+          <li><a href="#"> TEACHERS INFORMATIONS</a></li>
+          <li><a href="#">Suspendisse in neque</a></li>
+          <li class="last"><a href="#">Praesent et eros</a></li>
+        </ul>
+      </li>
+      <li><a href="">STUDENTS</a>
+        <ul>
+          <li><a href="#">STUDENTS INFORMATIONS</a></li>
+          <li><a href="#">Suspendisse in neque</a></li>
+          <li class="last"><a href="#">Praesent et eros</a></li>
+        </ul>
+      </li>
+      <li><a href="file:///D:/educational/CAREERS.HTML">CAREER</a></li>
+      <li class="last"><a href="file:///D:/educational/contactus.html">ABOUT US</a></li>
+    </ul>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="featured_slide">
+    <div id="featured_wrap">
+      <ul id="featured_tabs">
+        <li><a href="#fc1">ACADEMICS<br />
+          <span>ACADEMICS</span></a></li>
+        <li><a href="#fc2">ADMINSTRATIVE<br />
+          <span>ADMINSTRATIVE</span></a></li>
+        <li><a href="#fc3">EXAMINATIONS<br />
+          <span>EXAMINATIONS</span></a></li>
+        <li class="last"><a href="#fc4">SPORTS<br />
+          <span>SPORTS</span></a></li>
+      </ul>
+      <div id="featured_content">
+        <div class="featured_box" id="fc1"><img src="academic.jpg" alt="" />
+          <div class="floater"><a href="#">Continue Reading &raquo;</a></div>
+        </div>
+        <div class="featured_box" id="fc2"><img src="adminstrative.jpg" alt="" />
+          <div class="floater"><a href="#">Continue Reading &raquo;</a></div>
+        </div>
+        <div class="featured_box" id="fc3"><img src="EXAMINATION.jpg" alt="" />
+          <div class="floater"><a href="#">Continue Reading &raquo;</a></div>
+        </div>
+        <div class="featured_box" id="fc4"><img src="SPORT.jpg" alt="" />
+          <div class="floater"><a href="#">Continue Reading &raquo;</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="container">
+    <div id="hpage">
+      <ul>
+        <li>
+          <h2>FACILITIES</h2>
+          <div class="imgholder"><a href="#"><img src="bus (2).jpg" alt="" /></a></div>
+          <p>Smart classes & CCTV in every classroom <a href="http://www.os-templates.com/">Air-Conditioned hostels for boys and girls</a>. Air-Conditioned hostels for boys and girls <a href="http://www.os-templates.com/">Free Website Templates</a>. Etmetus conse cte tuer leo nisl justo sed vest vitae nunc massa scelerit</p>
+          <p class="readmore"><a href="#"> &raquo;</a></p>
+        </li>
+        <li>
+          <h2>EXTRA CIRRCULAR</h2>
+          <div class="imgholder"><a href="#"><img src="extraact (1).jpg" alt="" /></a></div>
+          <p>Our core purpose is to enable our students to acquire the skills and attributes to become leaders for a better world. A leader is someone who has strong interpersonal skills and qualities.
+Determination . Knowledge . Adaptability
+
+          <p class="readmore"><a href="#"></a></p>
+        </li>
+        <li>
+          <h2>MISSION & VISION</h2>
+          <div class="imgholder"><a href="#"><img src="mission (1).jpg" alt="" /></a></div>
+          <p>
+Our educational institution has been conceptualized to educate young minds in such a way as to make them stand tall even in the largest of crowds. We therefore, aspire to develop outstanding world citizens who can contribute to the well-being of their society through positive thoughts and actions.</p>
+          <p class="readmore"><a href="#"></a></p>
+        </li>
+        <li class="last">
+          <h2>STUDENT PARTICIPATION</h2>
+          <div class="imgholder"><a href="#"><img src="studentact (1).jpg" alt="" /></a></div>
+          <p>The cultural shows put up for the Founders Day as well as for the Sports Day see hundred percent participation. The annual Art Exhibition, Science Exhibition, Computer Week, Holiday Homework Display give every student a platform to exhibit his or her work.</p>
+          <p class="readmore"><a href="#"></a></p>
+        </li>
+      </ul>
+      <br class="clear" />
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="footer">
+    <div id="newsletter">
+      <h2>Stay In The Know !</h2>
+      <p>Please enter your email to join our mailing list</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>News Letter</legend>
+          <input type="text" value="Enter Email Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+          <input type="submit" name="news_go" id="news_go" value="GO" />
+        </fieldset>
+      </form>
+      <p>To subscribe please <a href="#">click here &raquo;</a></p>
+    </div>
+   
+    <div class="footbox">
+      <h2>MISSION STATEMENT</h2>
+      <ul>
+        <li>Our educational institution has been conceptualized to</li>
+        <li> educate young minds in such a way as to make them stand </li>
+        <li>tall even in the largest of crowds</li>
+        <li> We therefore, aspire to develop outstanding world citizens</li>
+        <li class="last"></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>INFORMATIONS</h2>
+      <ul>
+        <li>Phone:980548549</li>
+        <li>Reception: +91-2216700</li>
+        <li>Counselor: +91-9814111159</li>
+        <li class="last"></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col6">
+  <div id="copyright">
+    <p class="fl_left">RITIK KATOCH <a href="#"></a></p>
+    <p class="fl_right">VISHAL SHARMA<a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates"></a></p>
+    <br class="clear" />
+  </div>
+</div>
+</body>
+</html>

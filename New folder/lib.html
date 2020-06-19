@@ -1,0 +1,46 @@
+<html>
+<head>
+<title><B><font size="32"> Laughing Colours Liberary </B></title>
+<body bgcolor="beige">
+<style>
+img {
+  border-radius: 50%;
+}
+</style>
+<center><img src="logo2.png"></center>
+<center><h2><B><font size="38">Laughing Colours School Library<B></font></h2></center>
+<!--Once the form is submitted, all the form data is forwarded to InsertBooks.php -->
+<form action="InsertBooks.php" method="post">
+ 
+<table border="7" bgcolor="lightgrey" bordercolor="black" align="center" cellpadding="5" cellspacing="5">
+<tr>
+<td><B><font size="6"> Enter ISBN :</B></font></td>
+<td> <input type="text" name="isbn" size="48"> </td>
+</tr>
+<tr>
+<td><B><font size="6"> Enter Title :</B></font></td>
+<td> <input type="text" name="title" size="48"> </td>
+</tr>
+<tr>
+<td><B><font size="6"> Enter Author :<B/></font></td>
+<td> <input type="text" name="author" size="48"> </td>
+</tr>
+<tr>
+<td><b> <font size="6">Enter Edition :</B></font></td>
+<td> <input type="text" name="edition" size="48"> </td>
+</tr>
+<tr>
+<td><B><font size="6"> Enter Publication:</B></font> </td>
+<td> <input type="text" name="publication" size="48"> </td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="button" onclick="location.href='https://www.amazon.in/Kindle-eBooks/b?ie=UTF8&node=1634753031';" value="submit" />
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

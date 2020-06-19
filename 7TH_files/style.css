@@ -1,0 +1,1885 @@
+/*
+
+Theme Name: Doon-School.
+
+Theme URI: Your Theme's URI
+
+Description: The Doon School is India's finest boarding school for boys aged 12 to 18. Having been established in 1935, we have a long and proven track record of specialising in boys' education..
+
+Version: 1.0
+
+Author: Detecvision Team
+
+Author URI: http://detecvision.com
+
+*/
+
+
+
+
+
+/* =============================================================================
+
+   HTML5 display definitions
+
+   ========================================================================== */
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+audio:not([controls]) { display: none; }
+
+[hidden] { display: none; }
+
+
+
+
+
+/* =============================================================================
+
+   Base
+
+   ========================================================================== */
+
+
+
+/*
+
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+
+ * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+
+ */
+
+
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+
+
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+
+
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+
+
+img { max-width: 100%;}
+
+/* =============================================================================
+
+   Links
+
+   ========================================================================== */
+
+
+
+a { color: #000; }
+
+a:visited { color: #000; }
+
+a:hover { color: #06e; }
+
+a:focus { outline: thin dotted; }
+
+
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+
+a:hover, a:active { outline: 0; }
+
+
+
+
+
+/* =============================================================================
+
+   Typography
+
+   ========================================================================== */
+
+
+
+abbr[title] { border-bottom: 1px dotted; }
+
+
+
+b, strong { font-weight: bold; }
+
+
+
+blockquote { margin: 1em 40px; }
+
+
+
+dfn { font-style: italic; }
+
+
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+
+
+ins { background: beige; color: #000; text-decoration: none; }
+
+
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+
+
+/* Redeclare monospace font family: h5bp.com/j */
+
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+
+
+
+/* Improve readability of pre-formatted text in all browsers */
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+
+
+q { quotes: none; }
+
+q:before, q:after { content: ""; content: none; }
+
+
+
+small { font-size: 85%; }
+
+
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+
+
+
+
+/* =============================================================================
+
+   Lists
+
+   ========================================================================== */
+
+
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+
+dd { margin: 0 0 0 40px; }
+
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+
+
+
+
+/* =============================================================================
+
+   Embedded content
+
+   ========================================================================== */
+
+
+
+/*
+
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
+
+ */
+
+
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+
+
+/*
+
+ * Correct overflow not hidden in IE9
+
+ */
+
+
+
+svg:not(:root) { overflow: hidden; }
+
+
+
+
+
+/* =============================================================================
+
+   Figures
+
+   ========================================================================== */
+
+
+
+figure { margin: 0; }
+
+
+
+
+
+
+
+/* =============================================================================
+
+   Forms
+
+   ========================================================================== */
+
+
+
+form { margin: 0; }
+
+fieldset { border: 0; margin: 0; padding: 0; }
+
+
+
+/* Indicate that 'label' will shift focus to the associated form element */
+
+label { cursor: pointer; }
+
+
+
+/*
+
+ * 1. Correct color not inheriting in IE6/7/8/9
+
+ * 2. Correct alignment displayed oddly in IE6/7
+
+ */
+
+
+
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+
+
+
+/*
+
+ * 1. Correct font-size not inheriting in all browsers
+
+ * 2. Remove margins in FF3/4 S5 Chrome
+
+ * 3. Define consistent vertical alignment display in all browsers
+
+ */
+
+
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+
+
+/*
+
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+
+ */
+
+
+
+button, input { line-height: normal; }
+
+
+
+/*
+
+ * 1. Display hand cursor for clickable form elements
+
+ * 2. Allow styling of clickable form elements in iOS
+
+ * 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
+
+ */
+
+
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+
+
+
+/*
+
+ * Re-set default cursor for disabled elements
+
+ */
+
+
+
+button[disabled], input[disabled] { cursor: default; }
+
+
+
+/*
+
+ * Consistent box sizing and appearance
+
+ */
+
+
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+
+
+/*
+
+ * Remove inner padding and border in FF3/4: h5bp.com/l
+
+ */
+
+
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+
+
+/*
+
+ * 1. Remove default vertical scrollbar in IE6/7/8/9
+
+ * 2. Allow only vertical resizing
+
+ */
+
+
+
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+
+
+/* Colors for form validity */
+
+input:valid, textarea:valid {  }
+
+input:invalid, textarea:invalid { /*background-color: #f0dddd;*/ }/* ######## Required field input type background color #######*/
+
+ul{padding:0; margin:0;}
+
+
+
+/* =============================================================================
+
+   Tables
+
+   ========================================================================== */
+
+
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+td { vertical-align: top; }
+
+
+
+
+
+/* =============================================================================
+
+   Chrome Frame Prompt
+
+   ========================================================================== */
+
+
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+
+
+
+
+/* ==|== primary styles =====================================================
+
+   Author:
+
+   ========================================================================== */
+
+   
+
+   
+
+/*------------Doon School General------------*/
+
+body{     font-family: arial; font-size:14px;}
+
+a{text-decoration:none;}
+
+p,ul{margin:0; padding:0;}
+
+/*.mid{width:960px; margin:0 auto; padding-right:-15px;}*/
+
+.mid{width:1025px; margin:0 auto; padding-right:-15px;}
+
+
+
+
+
+/*------------Header------------*/
+
+#dheader{position:relative; height:70px; z-index:999;}
+
+#dheader .logo img{position:absolute; top:0; left:0;}
+
+#dheader .logo h1{display:inline-block; margin:18px 0; margin-left:75px; font-size:37px; text-transform:uppercase; color:#000;font-family:garamond;}
+
+#dheader #nav {float:right; background:#005294;  padding:10px 10px; margin-top:-38px;}/* margin-right:58px; */
+
+#dheader #nav li {
+
+    display: block;
+
+    float: left;
+
+    list-style: none outside none;
+
+    position: relative;
+
+}
+
+#dheader #nav ul li a{color:#fff;  font: 13px Arial,sans-serif; padding: 0 8px; border-right:1px solid #fff;}
+
+#dheader #nav ul li a:hover{color:#ccc; }
+
+#dheader #nav ul li:last-child a{border:none;}
+
+#nav ul.sub-menu {
+
+    background: none repeat scroll 0 0 #005294 !important;
+
+    border-top: 2px solid #ffffff;
+
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.4);
+
+    display: none;
+
+    left: 0;
+
+    padding: 10px 20px;
+
+    position: absolute;
+
+    top: 18px;
+
+    width: 253px; /*180px;*/
+
+    z-index: 600;
+
+}
+
+#nav ul li:hover .sub-menu { display: block; }
+
+#nav ul.sub-menu li a { border: none !important; }
+
+.paswrd { font-size: 20px; text-align: center; padding: 150px 0;}
+
+.header-bg{height:auto; clear:both; }
+
+.header-bg a img, .header-bg div img{height:auto; min-width:100%; /*max-height:400px;*/ }  	
+
+
+
+/*------------Menu Bar------------*/	
+
+#menu{background-color: #000000; box-shadow: 0 7px 5px #333333;  list-style:none; position:relative; z-index:9999; height:40px; }
+
+/*#menu #mpadd{padding: 14px 11px 8px; }*/
+
+#menu #mpadd{padding: 14px 11px 8px;display:inline-block;float:left;}
+
+#menu #mpadd ul{width:100%;}
+
+#menu li{display:inline-block; position:relative;}
+
+#menu #menu-main-1>li{padding:10px 0;}
+
+#menu #menu-main-1>li.current-menu-ancestor .arrow, #menu #menu-main-1>li.current-menu-item .arrow{position:absolute; bottom:0; left:45%;width:10px; height:10px; background:url("images/arrow.png") no-repeat; z-index:9999; display:inline-block!important; }
+
+/*#menu li a{color:#fff; text-transform:uppercase; padding-right: 6px; border-right:1px solid #fff; font-size:12px; margin-right:6px; font-weight:100;}*/
+
+/*#menu li:last-child a{margin:0; padding:0; border:none;}*/
+
+#menu li a{color:#fff; text-transform:uppercase; /*padding-right: 10px; */border-right:1px solid #fff; font-size:12.5px; /*margin-right:10px;*/ font-weight:100;}
+
+#menu li:last-child a{border:none;}
+
+#menu li .sub-menu{position: absolute; left:-9999px; width:170px; z-index:999;display: none;}
+
+#menu li:hover>.sub-menu{left:0;display: block;}
+
+#menu .sub-menu li{display:block; background:#000;  border-bottom:1px solid #ddd;  padding:5px; font-weight:100; width:160px;}
+
+#menu .sub-menu li:last-child{ border:none; }
+
+#menu .sub-menu li a{font-size:13px; border:none; text-transform:none; display:block; padding:3px;}
+
+
+
+
+
+
+
+#menu li>.sub-menu li:hover .sub-menu{left:171px; top:0;}
+
+
+
+
+
+
+
+/*------------Index Page/General------------*/
+
+.main-content{overflow:hidden; margin:0 auto;}
+
+.main-content .content{float:left; width:660px;  }
+
+.main-content .content .home-info{background:#e5edf4;padding:19px;display: inline-block;}
+
+.main-content .content .sponsor-img { width:100%;}
+
+.main-content .content .sponsor-img img{margin:10px 3px;}
+
+.main-content .content .intro-quote{ color: #000; font-family: arial; font-size: 15px; font-weight: 500; margin: 0; word-spacing: 2px;}
+
+.main-content .content .cc-box{list-style:none; }
+
+.main-content .content .cc-box li{width:266px; display:inline-block; margin-right:15px; overflow:hidden; vertical-align:top;}/*height: 502px;*/
+
+.main-content .content .cc-box li img{max-width:220px; margin-bottom: 15px;}
+
+.main-content .content .cc-box li:last-child{margin:0;}
+
+.main-content .content .cc-box h3{color: #005293; font-weight:100;  padding:0; font-size:18px; height: 30px;} /*  text-transform:uppercase;  */
+
+.main-content .content .cc-box h3 a{ color: #000; font-weight: bold; font-family:garamond;}
+
+.main-content .content .cc-box p{  font-family: arial; font-size: 14px; font-weight: 500; word-spacing: 1px;}
+
+
+
+
+
+
+
+/*------------Sidebars------------*/
+
+.main-content .sidebar{float:right; width: 300px; background:#005294; overflow:hidden;}
+
+.main-content .sidebar .padd{padding:20px;}
+
+.main-content .sidebar .widget-container{margin-top:20px;}
+
+.main-content .sidebar .widget-container:first-child{margin:0;}
+
+.main-content .sidebar .social_net{overflow:hidden;}
+
+.main-content .sidebar .social_net .icons{float:right; }
+
+.main-content .sidebar .social_net .icons img{padding:0 3px;}
+
+.main-content .sidebar  .latest-news{list-style:none; border:1px solid #fff; background:#fff; clear:both;}
+
+.main-content .sidebar  .widget-title{margin:0; font-weight:600; padding:5px; background:#005294; color:#fff; font-size: 20px; padding-left:8px;font-family:garamond;}
+
+.main-content .sidebar  .latest-news li{border-bottom:1px solid #000; padding:5px;}
+
+.main-content .sidebar  .latest-news li:last-child{border:none;}
+
+.main-content .sidebar  .latest-news li img{display:inline-block}
+
+.main-content .sidebar  .latest-news li p{display:inline-block; font-size:14px; margin:0; vertical-align:top; width:75%; font-weight:600; padding:5px;}
+
+.main-content .sidebar  .latest-news li p span{font-weight:bold; font-size:14px;}
+
+
+
+.white.sidebar  .widget-container{border:1px solid #999}
+
+.white.sidebar  .subcategory-list li{list-style:none; border-bottom:1px solid #999;padding:10px;}
+
+.white.sidebar  .subcategory-list li:last-child{border:none;}
+
+.white.sidebar  .subcategory-list li a{color:#000; display:block;}
+
+.white.sidebar  .subcategory-list li a:hover{color:#005294}
+
+.white.sidebar  .subcategory-list li a:visited{color:#000;}
+
+.white.sidebar  .news .widget-content li{list-style:none; border-bottom: 1px solid #999; padding: 10px; font-size: 15px;}
+
+.white.sidebar  .news .widget-content li:last-child{border:none;padding: 0px 0px 5px;} 
+
+.white.sidebar  .news .widget-content li:last-child p{padding:10px;}
+
+.white.sidebar  .news .widget-content .date{font-style:italic; color:#999; font-size:12px;}
+
+
+
+/*------------Main Category Inner Page------------*/
+
+.category-page .breadcrumbs{color:#005294; padding:15px 0; font-family:Arial, Tahoma, sans-serif;}
+
+
+
+.category-page .breadcrumbs a{display:inline; color:#005294 }
+
+.category-page .content .home-info{padding-top:0; padding-right:0;}
+
+
+
+
+
+/*------------SubCategory Inner Page------------*/
+
+.subcategory-page .breadcrumbs{color:#005294; padding:15px 0; font-family:Arial, Tahoma, sans-serif; overflow:hidden;}
+
+.subcategory-page .breadcrumbs a{display:inline; color:#005294 }
+
+.subcategory-page .breadcrumbs .links{margin-left:10px;}
+
+.subcategory-page .breadcrumbs .social_net a{margin:0 3px;	}
+
+.subcategory-page .breadcrumbs .social_net {float:right}
+
+.subcategory-page  .content{float:right; width:715px;}  /*   width:695px;   */
+
+
+
+.subcategory-page .content .home-info{padding-top:1px; padding-right:20px;}
+
+.subcategory-page .content .home-info .title{margin:0; padding:20px 0; color:#005294; font-size:25px; text-transform: uppercase;}
+
+.subcategory-page .content .home-info img{padding: 0 10px 0 0;}
+
+
+
+.subcategory-page  .left-sidebar{float:left; background:none; ; padding:20px 0;}
+
+
+
+
+
+
+
+
+
+
+
+#dfooter{padding:10px 0; border-top:1px solid #636466;  font-size:14px; color:#636466;text-align:center; margin-top: 30px;}
+
+#dfooter p{line-height:22px;}
+
+#dfooter nav a{margin-left:10px; padding-left:10px; border-left:1px solid #636466; display:inline-block; color:#636466;}
+
+
+
+
+
+/*------------Blog Page------------*/
+
+
+
+.blog #primary #content {width:650px; float:left;}
+
+.blog #primary #content{font-family:Arial, sans-serif; color:#666;}
+
+.blog #primary #content a{color:#005294}
+
+.blog #primary #content article{border-bottom: 1px solid #DDDDDD; padding-bottom:20px;}
+
+.blog #primary #content article:last-child{border:none;}
+
+.blog #primary #content article .entry-content{margin:20px 0;}
+
+.blog #primary #content header{position:relative}
+
+.blog #primary #content .entry-meta span, .blog #primary #content .entry-meta .entry-date{margin-right:5px;}
+
+.blog #primary #content .entry-header .comments-link{}
+
+.entry-header .comments-link a { background: url("images/comment-bubble.png") no-repeat scroll 0 0 #EEEEEE; color: #666666; font-size: 13px; font-weight: normal; height: 36px; line-height: 35px; overflow: hidden; padding: 0; position: absolute; right: 0; text-align: center; text-decoration: none; top: 0; width: 43px; display:none;}
+
+.blog #primary #content footer{position:relative; border:none;}
+
+.blog #primary #content footer .edit-link{float: right;}
+
+.blog #primary #content footer .edit-link a{ background: none repeat scroll 0 0 #EEEEEE; border-radius: 3px 3px 3px 3px; color: #666666; font-size: 12px; font-weight: 300; line-height: 1.5em; padding: 2px	 8px; text-decoration: none; }
+
+.blog  .right-sidebar{float:right; background:none;  padding:20px 0 0 0; }
+
+.blog  .right-sidebar .widget-container{border:1px solid #999; margin-bottom:20px; list-style:none;}
+
+
+
+.blog  .right-sidebar .widget-container:last-child{margin-bottom:0;}
+
+.blog  .right-sidebar .widget-container .widget-title{text-transform:uppercase;}
+
+.blog  .right-sidebar .widget-container li{list-style:none; border-bottom:1px solid #999; padding:10px;}
+
+.blog  .right-sidebar .widget-container li:last-child{border:none;}
+
+.blog  .right-sidebar .widget-container li a{color:#000; display:block;}
+
+.blog  .right-sidebar .widget-container li a:hover{color:#005294}
+
+
+
+/* ==|== media queries ======================================================
+
+   EXAMPLE Media Query for Responsive Design.
+
+   This example overrides the primary ('mobile first') styles
+
+   Modify as content requires.
+
+   ========================================================================== */
+
+/*Media Queries*/	
+
+@media screen 
+
+and (max-width : 960px) {
+
+.header-bg{min-width:960px;}
+
+.header-bg a img, .header-bg div img{min-width:960px;  }
+
+
+
+#menu{min-width:960px; padding-left:5px;}
+
+}
+
+
+
+@media screen 
+
+and (max-width : 540px) {
+
+/*------------Doon School General------------*/
+
+.mid{width:100%;}
+
+
+
+/*------------Header Bg------------*/
+
+.header-bg{min-width:100%;}
+
+.header-bg a img, .header-bg div img{min-width:100%; width:100%; }
+
+
+
+
+
+
+
+
+
+#menu{min-width:98%; }
+
+#menu #menu-main-1 >li{margin: 3px 0;}
+
+
+
+#dheader .logo h1{margin-top:0;}
+
+#dheader #nav {margin-top: -15px; padding: 5px 10px; } 
+
+
+
+/*------------Index Page/General------------*/
+
+.main-content .content{width:100%; display:block;}
+
+.main-content .content .cc-box li{width:100%; display:block;}
+
+.main-content .content .cc-box img{float:left; margin-right:10px;}
+
+
+
+
+
+/*------------Sidebars------------*/
+
+.main-content .sidebar{width:100%; display:block; clear:both; float:none;}
+
+
+
+.blog #primary{padding:0 10px;}
+
+.blog #primary #content{width:100%; display:block;}
+
+}
+
+
+
+@media screen 
+
+and (max-width : 480px) {
+
+}
+
+
+
+@media screen 
+
+and (max-width : 320px) {
+
+#dheader .logo h1{font-size:20px;}
+
+
+
+#dheader #nav{margin-top: -5px;	}
+
+#dheader #nav > a{font-size:9px;}
+
+
+
+.main-content .content .cc-box{ /*margin:0 auto; width:200px;*/}
+
+.main-content .content .cc-box p{/*display:inline-block; min-width:200px;*/ width:200px;}
+
+}
+
+
+
+@media only screen and (min-width: 35em) {
+
+  /* Style adjustments for viewports that meet the condition */
+
+}
+
+
+
+
+
+
+
+/* ==|== non-semantic helper classes ========================================
+
+   Please define your styles before this section.
+
+   ========================================================================== */
+
+
+
+/* For image replacement */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+
+.ir br { display: none; }
+
+
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+
+.hidden { display: none !important; visibility: hidden; }
+
+
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+
+
+/* Hide visually and from screenreaders, but maintain layout */
+
+.invisible { visibility: hidden; }
+
+
+
+/* Contain floats: h5bp.com/q */
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+
+.clearfix:after { clear: both; }
+
+.clearfix { *zoom: 1; }
+
+
+
+
+
+
+
+/* ==|== print styles =======================================================
+
+   Print styles.
+
+   Inlined to avoid required HTTP connection: h5bp.com/r
+
+   ========================================================================== */
+
+
+
+@media print {
+
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+
+  a, a:visited { text-decoration: underline; }
+
+  a[href]:after { content: " (" attr(href) ")"; }
+
+  abbr[title]:after { content: " (" attr(title) ")"; }
+
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+
+  thead { display: table-header-group; } /* h5bp.com/t */
+
+  tr, img { page-break-inside: avoid; }
+
+  img { max-width: 100% !important; }
+
+  @page { margin: 0.5cm; }
+
+  p, h2, h3 { orphans: 3; widows: 3; }
+
+  h2, h3 { page-break-after: avoid; }
+
+}
+
+
+
+/*.doon_sec {
+
+    position: relative !important;
+
+    right: -460px !important;
+
+    top: -36px !important;
+
+    width: 55px;
+
+
+
+}
+
+.doon_five {
+
+    position: relative;
+
+    right: 328px;
+
+    top: -71px;
+
+    width: 140px;
+
+}
+
+.doon_four {
+
+    position: relative;
+
+    right: 220px;
+
+    top: -107px;
+
+    width: 115px;
+
+}
+
+.doon_sev {
+
+    position: relative;
+
+    right: 100px;
+
+    top: -142px;
+
+    width: 115px;
+
+}
+
+.doon_six {
+
+
+
+    position: relative;
+
+    right: -15px;
+
+    top: -178px;
+
+    width: 95px;
+
+}
+
+.doon_trd {
+
+    position: relative;
+
+    right: -125px;
+
+    top: -214px;
+
+    width: 120px;
+
+}
+
+.doon_nine {
+
+    position: relative;
+
+    right: -260px;
+
+    top: -249px;
+
+    width: 150px;
+
+}
+
+.doon_eight {
+
+    position: relative;
+
+    right: -392px;
+
+    top: -285px;
+
+    width: 85px;
+
+}*/
+
+/*@-moz-document url-prefix() {
+
+    .doon_sec {position: relative !important;
+
+    right: -465px !important;
+
+    top: -36px !important;
+
+    width: 55px;}
+
+}*/
+
+li.menu-item-979 a{border-left:1px solid #fff; padding-left:10px}
+
+/* ---- News Section ---*/
+
+body.blog div.comments-link, body.archive div.comments-link{display:none;}
+
+/*--- doon Blog ---*/
+
+div.doon_blog ul{list-style:disc inside none;}
+
+div.doon_blog ul li{padding-left:10px;}
+
+div.blog .entry-title{color:#005294;}
+
+.blog_catlist h1{font-size:1.5em !important;margin-top:9px;margin-left: 1px !important;}
+
+div.bcat_block{border-bottom: 1px dotted #999999;padding-top: 10px;padding-bottom:15px;}
+
+div.blog_catlist{ display: inline-block; width: 544px;}
+
+div.blog_thumb{ display: inline-block; padding-left: 5px; padding-top: 17px; padding-bottom:10px; vertical-align: top;}
+
+.entry-content img{ padding: 5px 4px 4px 4px !important;}
+
+.teasers { margin-top: 3%; width: 100%;}
+
+
+
+.teaser, .reqwid .teaser {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 1px solid #cccccc;
+
+    float: left;
+
+    margin-right: 20px;
+
+    width: 200px;
+
+    margin-bottom: 15px;
+
+}
+
+.reqwid .teaser { width: 210px;}
+
+.k-news img { padding: 5px 0 4px 4px !important;}
+
+.page-id-682 .teaser {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 1px solid #a3a3a3;
+
+    float: left;
+
+    margin-right: 20px;
+
+    width: 27%;/*185px;*/
+
+    margin-bottom: 15px;
+
+    padding: 7px;
+
+
+
+}
+
+.page-id-682 .title1 { background: none; }
+
+.page-id-682 .inner img {
+
+    /*max-width: 95%;*/
+
+}
+
+.teaser.last {
+
+    margin-right: 0 !important;
+
+}
+
+.inner {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    /*border: 1px solid #CCCCCC;*/
+
+}
+
+.title1 {
+
+    background: url("http://www.doonschool.com/wp-content/themes/doon/images/forward.png") no-repeat scroll right center transparent;
+
+    color: #4E4E4E;
+
+    display: block;
+
+    font-size: 17px !important;
+
+    font-weight: bold;
+
+    padding: 5px !important;
+
+    font-family:garamond;
+
+}
+
+.reqwid .title1 { background: none;}
+
+/*div.blog_catlist{
+
+display: inline-block;
+
+    float: left;
+
+    padding-left: 20px;
+
+    padding-top: 0;
+
+    width: 463px;
+
+}*/
+
+.hm-video {
+
+    height: 350px;
+
+    width: 100%;
+
+}
+
+
+
+/*----------custom 07/08/2013----------*/
+
+.main-content .three-column-left{width: 240px;}
+
+.main-content .content3{margin:0 1px;}
+
+.main-content .content3 .content3-desc{background: none repeat scroll 0 0 #E5EDF4;padding:19px;display: inline-block; width: 100%;}
+
+.content3-desc {background: none repeat scroll 0 0 #E5EDF4;padding: 5px 12px;}
+
+.subcategory-page  .content3{float:left; width:440px;padding:20px;}
+
+.main-content .three-column-right{width: 237px;float:right;}
+
+.content-with-right-sidebar {float: left;margin-right: 15px;width: 705px;}
+
+.content-with-right-sidebar .home-info{background: none repeat scroll 0 0 #E5EDF4;padding:0 10px;}
+
+.content-without .home-info{background: none repeat scroll 0 0 #E5EDF4;padding:0 10px;}
+
+.white.sidebar .widget-container .right-sidebar-widget {}
+
+.widget-title {background: none repeat scroll 0 0 #005294;color: #FFFFFF;font-size: 16px; font-weight: 400; margin: 0; padding: 5px 5px 5px 8px;}
+
+.widget-title h3{padding-left:8px;}
+
+.right-sidebar-widget .widget-content p{padding:5px;}
+
+.right-widget-text { padding: 2px;}
+
+.right-widget-image { float: left; padding: 6px;}
+
+/*----------End custom 07/08/2013----------*/
+
+/*----------custom 16/08/2013----------*/
+
+.responsiveMenuSelect{display:none;}
+
+/*----------End custom 16/08/2013----------*/
+
+
+
+/*------------- Accordian Menu ------------*/
+
+div.dcjq-accordion ul.menu li.dcjq-parent-li a.dcjq-parent{display:none;}
+
+div.dcjq-accordion ul.menu li.dcjq-parent-li ul.sub-menu li.dcjq-parent-li a{display:block;}
+
+
+
+/*------------- End Accordian Menu ------------*/
+
+/*----------custom 02/09/2013----------*/
+
+/* .widget-content {padding: 0 5px;} */
+
+/*----------End custom 02/09/2013----------*/
+
+/*----------07/09/2013----------*/
+
+.news-widget{padding: 5px 10px;border-bottom:1px solid #ccc;}
+
+.news-widget-last{border:none !important;}
+
+
+
+/*----------08/09/2013----------*/
+
+.clearline{clear:both;}
+
+.crousel-logo-info{margin-top:25px;}
+
+.main-content .content .home-info {min-height: 394px; }
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+
+.main-content.content.home-info {min-height: 455px; }
+
+}
+
+.menu-item-1576{padding-left:10px !important;}
+
+
+
+.widget-content li ul li{ width: 200px;}
+
+.widget-content ul li ul li ul {border-top:1px solid #999999;margin-top: 10px;width: 229px;}
+
+.widget-content ul li ul:first:child{padding-top:0px !important;}
+
+.widget-content li ul li:last-child{padding-left:10px !important; }
+
+.widget-content li ul li:last-child{padding-top:10px !important; }
+
+.entry-content > p {margin: 1em 0;}
+
+.entry-content > h2 {margin: 0 0 12px; padding-top: 10px;}
+
+/*----------16/09/2013----------*/
+
+.widget-content .textwidget {padding: 5px;overflow:hidden;}
+
+
+
+.widget-content aside:last-child {border: medium none;}
+
+.widget-content aside { border-bottom: 1px dotted;}
+
+.widget-content .textwidget > a {float: right;}
+
+
+
+/*--- Widget block ----*/
+
+div.widget-main-block{border:none !important;}
+
+
+
+div.widget-main-block div.widget-block aside{border:1px solid #999 !important; margin-bottom:20px;}
+
+/*--- End Widget block ----*/
+
+
+
+footer.entry-meta {display:none !important;}
+
+.widget-container{overflow:hidden;}
+
+.widget-container li{list-style:none;border-bottom:1px dotted #666;padding-bottom: 20px;padding-top: 5px;padding-right:5px;padding-left:5px;}
+
+.widget-container li:last-child{border-bottom:none;padding-bottom: 2px;padding-top: 5px;}
+
+
+
+/*--- Commerce 3 column ---*/
+
+
+
+div.deparment-commerce .teaser {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 1px solid #CCCCCC;
+
+    float: left;
+
+    margin-right: 11px;
+
+    width: 187px;
+
+    margin-bottom:11px !important;
+
+}
+
+
+
+div.deparment-commerce .teaser img{
+
+	width:179px !important
+
+	}
+
+div.deparment-commerce .teaser span.title1{width:172px;}	
+
+/*--- End Commerce 3 column ---*/
+
+
+
+.blog .right-sidebar {  width: 269px;}	
+
+
+
+
+
+
+
+/*----------update 1/11/13---------*/
+
+.home-page-info-block.home-index-page { overflow: hidden; width: 960px;margin: 0 auto;}
+
+
+
+.home-page-info-block.home-index-page article { float: left; width: 660px;}
+
+.home-page-info-block.home-index-page .sidebar{margin-top: 12px;}
+
+.main-content .content .sponsor-img img{padding:5px 4px;}
+
+/*----------update 13/11/13---------*/
+
+
+
+
+
+.home-page-info-block { float: left; min-height: 444px; overflow: hidden;  width: 1015px; background-color:#e5edf4; margin-top: 1px;/*margin-top: 10px;*/}
+
+
+
+.home-page-info-block article { float: left;width: 660px;}
+
+
+
+/*=== Update 18-sep-2014 ===*/
+
+.curriculam_table table th,.curriculam_table table td{border:1px solid #000;}
+
+.wp-accordion .ui-accordion-header{padding:10px; background-color: #005294 !important; color: #fff;}
+
+.wp-accordion .ui-accordion-content{height:auto !important;}
+
+
+
+h2 span {
+
+    font-size: 14px;
+
+}
+
+.entry-content li {
+
+   /* float: left; */
+
+    margin-bottom: 10px;
+
+    margin-left: 20px;
+
+}
+
+#vacancy {
+
+    padding: 5px 15px;
+
+}
+
+.wpcf7-text, .wpcf7-textarea {
+
+    border: 1px solid #ccc;
+
+    margin: 5px 0 15px;
+
+    padding: 5px 20px;
+
+}
+
+.wpcf7-submit {
+
+    background: none repeat scroll 0 0 #005294;
+
+    border: medium none;
+
+    color: #fff;
+
+    cursor: pointer;
+
+    font-weight: 600;
+
+    padding: 7px 20px;
+
+    text-transform: uppercase;
+
+}
+
+.wpcf7-submit:hover { background: #000000; }
+
+.link {
+
+    float: right;
+
+    padding: 3px 5px;
+
+}
+
+.link:hover { color: #aaaaaa !important; }
+
+ul.about-us-specialist-boys li{/* margin-left:0px !important; */}
+
+.alignleft {
+
+    float: left;
+
+    margin: 0 10px 10px 0;
+
+}
+
+.alignright {
+
+    float: right;
+
+    margin: 0 0 10px 10px;
+
+}
+
+.about-us-specialist-boys strong {
+
+    display: block;
+
+    margin-bottom: 7px;
+
+}
+
+.entry-meta {
+
+    display: none;
+
+}
+
+body.page-id-240 .entry-content ul{list-style:none;}
+
+body.page-id-240 .entry-content li{margin-left:0px;}
+
+body.page-id-240 .entry-content li ul {list-style: disc outside none;}
+
+body.page-id-240 .entry-content li ul li{margin-left:20px;}
+
+.entry-content h1{font-family:garamond;}
+
+.block { display: inline-block; width: 100%; }
+
+.block ul {
+
+    background: none repeat scroll 0 0 #fff;
+
+    border: 1px solid #a3a3a3;
+
+    display: inline-block;
+
+    float: left;
+
+    height: 148px;
+
+    margin: 5px 14px 10px 4px;
+
+    padding: 50px 10px;
+
+    width: 178px;
+
+}
+
+.block li {
+
+    list-style: none outside none;
+
+    margin-bottom: 30px;
+
+    margin-left: 15px;
+
+}
+
+.cntct-table th { text-align: left; }
+
+.dept-right { float:right;width: 175px;}
+
+body.right-sidebar .main-content .content .home-info {/*min-width: 560px;*/}
+
+
+
+h3.wp-tab-title {clear:both;}
+
+li.cat-item-16 a{border-bottom: 1px solid #999; padding: 10px;}
+
+li.cat-item-16 ul.children li a{border:none;padding:0;}
+
+
+
+.regform,.regform:focus{ background-color: #005294;
+
+    color: #fff !important;
+
+    padding: 10px;
+
+    text-transform: uppercase;}
+
+.regform:hover{background-color:#1a6eb1;color:#fff;}
+
+
+
+.blog-date {
+
+    color: #005294;
+
+    display: block;
+
+    font-style: italic;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+.social .teaser {
+
+    margin-right: 15px;
+
+}
+
+.search-form{
+
+     float: right;
+
+    /*margin-right: 60px; ----- margin-right: 65px;  */
+
+    margin-top: 10px;
+
+}
+
+.field {
+
+    height: 24px;
+
+    width: 225px;
+
+}
+
+.doted-border {
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 5px;
+
+	width: 65%;
+
+}
+
+.city-doted-border {
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 5px;
+
+	width: 39%;
+
+	margin-bottom: 10px;
+
+}
+
+.phone-doted-border {
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 5px;
+
+	width: 37%;
+
+	margin-bottom: 10px;
+
+}
+
+.small-text {
+
+	background: transparent;
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	margin: 0 0 6px 5px;
+
+	width: 205px;
+
+}
+
+.margin {
+
+	margin-right: 5px;}
+
+.margin-doted-border {
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 172px;
+
+	margin-bottom: 10px;
+
+	width: 65%;
+
+}
+
+.margin-doted-border-2{
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 162px;
+
+	margin-bottom: 10px;
+
+	width: 67%;
+
+}
+
+.doted-border-2{
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 5px;
+
+	width: 67%;
+
+}
+
+.email-doted-border{
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 5px;
+
+	width: 548px;
+
+	margin-bottom: 10px;
+
+}
+
+.pan-doted-border{
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 5px;
+
+	width: 456px;
+
+	margin-bottom: 20px;
+
+}
+
+.left-margin {
+
+	margin-left: 7px;
+
+	margin-right: 4px;
+
+}
+
+.other-doted-border {
+
+	border: none;
+
+	border-bottom: 1px dotted #666;
+
+	background: transparent;
+
+	margin-left: 5px;
+
+	width: 50%;
+
+	margin-bottom: 10px;
+
+}
+
+.know-more {
+
+	margin: 5px 0 13px 2px;
+
+}
+
+.quarter{
+
+	margin-bottom: 15px;
+
+}
+
+.button{
+
+	background: #005294;
+
+	border: none;
+
+	color: #fff;
+
+	border-radius: 4px;
+
+    color: #fff;
+
+    font-size: 16px;
+
+    margin-top: 12px;
+
+    padding: 10px 27px;
+
+}
+
+.submit {
+
+	background: #F00;
+
+	border: medium none;
+
+    border-radius: 3px;
+
+    color: #fff;
+
+    padding: 7px 17px;
+
+}
+
+.leftalign {
+
+	 margin: 0 10px 10px 0;
+
+}
+
+.page-id-6131 #dheader, .page-id-6131 #slider, .page-id-6131 #menu, .page-id-6131 .breadcrumbs, .page-id-6131 #dfooter,  .page-id-7904 #dheader, .page-id-7904 #slider, .page-id-7904 #menu, .page-id-7904 .breadcrumbs, .page-id-7904 #dfooter, .page-id-7904 .slicknav_btn{
+
+    display: none;
+
+}
+
+.li-last-child {
+
+    padding: 10px !important;
+
+}
+
+.aligned{
+
+	float: left;
+
+	padding: 0 3px 10px 0;
+
+}
+
+.pad-bot {
+
+  padding-bottom: 260px !important;
+
+}
+
+.widget-content .menu-item-2869 > a, .widget-content .menu-item-5123 > a {
+
+    display: none;
+
+}
+
+.postid-4974 #nav-single { display: none;}
+
+.l-summer { font-size: 20px;}

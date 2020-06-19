@@ -1,0 +1,73 @@
+@media screen and (max-width : 1024px) {
+#dheader.mid, #dfooter.mid{width:100%;}
+/*------------Slider Homepage------------*/
+.header-bg{height:auto; min-width:100%;}
+.header-bg a img, .header-bg div img{min-width:100%; width:100%; }
+/* --------------------- Top Navigation ----------------*/
+#searchsubmit { margin: 48px 0 0;}
+#dheader .logo h1{margin-top:0;}
+#dheader #nav { clear: both; margin-top: 13px; padding: 10px;}
+/* --------------------- 3 Column Page ----------------*/
+.subcategory-page .three-column-left { display:none;}
+.subcategory-page .content3 { width: 650px;}
+.main-content .three-column-right { float: left; margin-left: 40px;}
+.subcategory-page .content { float: none; margin: 0 auto;}
+}
+@media screen and (max-width : 980px) {
+.main-content.mid { margin: 0px 20px; width: auto;}
+/*body.right-sidebar .main-content .content .home-info {min-width: auto;}*/
+.subcategory-page .content3 { float: none; width: 95%;}
+.main-content .three-column-right { float: none;}
+.main-content .content, .home-page-info-block, .home-page-info-block article, .main-content .sidebar { float: none; width: auto;}
+div.blog_catlist, .blog #primary #content { width: auto;}
+.blog #primary #content { float: none;}
+}
+@media screen and (max-width : 767px) {
+/* --------------------- Top Navigation ----------------*/
+#searchsubmit { margin: 0;}
+.teaser.last { margin-right: 20px !important;}
+.page-id-682 .teaser { width: auto;}
+.block { text-align: center;}
+.alignleft { float: none;}
+}
+@media screen and (max-width : 640px) {
+/*body.right-sidebar .main-content .content .home-info {min-width: 550px;}*/
+.main-content .content3 .content3-desc { width: auto;} 
+}
+@media screen and (max-width : 600px) {
+/* --------------------- Top Navigation ----------------*/
+#dheader #nav { text-align: center; width: 100%;}
+#dheader #nav li { display: inline-block; float: none;}
+#nav ul.sub-menu { text-align: left; width: 147px;}
+.search-form { text-align: center; float: none;}
+#searchform { margin: 40px 0 0;}
+}
+@media screen and (max-width : 565px) {
+/* --------------------- Top Navigation ----------------*/
+#dheader .logo h1{ font-size: 32px; margin-left: 60px;}
+}
+@media screen and (max-width : 500px) {
+#dheader .logo h1{ font-size: 28px;}
+}
+@media screen and (max-width : 455px) {
+#dheader .logo h1{ font-size: 24px;}
+.slicknav_menu { font-size: 14px;}
+}
+@media screen and (max-width : 435px) {
+#searchform { margin: 50px 0 0;}
+.wpcf7-text, .wpcf7-textarea { width: 80%;}
+}
+@media screen and (max-width : 401px) {
+.slicknav_menu { top: 40px;}
+}
+@media screen and (max-width : 380px) {
+#dheader #nav ul li a { font-size: 12px;}
+.hm-v { width: 80%;}
+.hm-video { height: 150px; width: 226px;}
+.page-id-228 .teasers { width: 77%;}
+body.right-sidebar .main-content .content .home-info { width: 90%;}
+}
+@media screen and (max-width : 359px) {
+#dheader #nav ul li a { font-size: 10px;}
+.dept-right { float: left;}
+}
